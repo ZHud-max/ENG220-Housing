@@ -20,13 +20,15 @@ increase awareness and discover soluDons using data.
 ~ Group Member Contributions ~ 
 
 Chris Tran (PM) 
-- Writng analysis code and producing visualizations.
+- Writing analysis code and producing visualizations.
 - Managing GitHub workflow (branches, commits, merges)
-Zeb 
--
+  
+Zeb Hudnall 
+- Data cleaning and preprocessing.
+- Writng analysis code and producing visualizations.
 Sudip BC 
 -
 Nader Alazemi 
 -
 Abdullah Alkhatlan 
--
+- Writing documentaDon and project report.
