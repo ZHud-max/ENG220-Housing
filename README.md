@@ -1,3 +1,14 @@
 # ENG220-Housing
 
-Hi.
+~ Group Member Contributions ~ 
+
+Chris Tran (PM) 
+- 
+Zeb 
+-
+Sudip BC 
+-
+Nader Alazemi 
+-
+Abdullah Alkhatlan 
+-
