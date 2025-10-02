@@ -27,8 +27,8 @@ Zeb Hudnall
 - Data cleaning and preprocessing.
 - Writng analysis code and producing visualizations.
 Sudip BC 
--
+- ~ Not yet assignned ~
 Nader Alazemi 
--
+- ~ Not yet assignned ~
 Abdullah Alkhatlan 
 - Writing documentaDon and project report.
