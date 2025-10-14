@@ -34,4 +34,4 @@ Nader Alazemi
 - ~ Not yet assignned ~
   
 Abdullah Alkhatlan 
-- Writing documentaDon and project report.
+- Writing documention and project report.
