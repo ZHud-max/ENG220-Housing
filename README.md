@@ -28,7 +28,7 @@ Zeb Hudnall
 - Writng analysis code and producing visualizations.
 
 Sudip BC 
-- ~ Not yet assignned ~
+- Building the streamlit application
 
 Nader Alazemi 
 - ~ Not yet assignned ~
