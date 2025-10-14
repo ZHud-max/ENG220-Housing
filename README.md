@@ -23,7 +23,7 @@ Chris Tran (PM)
 - Writing analysis code and producing visualizations.
 - Managing GitHub workflow (branches, commits, merges)
   
-Zeb Hudnall 
+Zebulon Hudnall 
 - Data cleaning and preprocessing.
 - Writng analysis code and producing visualizations.
 
