@@ -35,3 +35,6 @@ Nader Alazemi
   
 Abdullah Alkhatlan 
 - Writing documention and project report.
+
+Niyonkuru Beliutra
+- ~ Not yet assigned ~ (recentely joined group)
