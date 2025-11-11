@@ -12,7 +12,7 @@ to draw down prices and house insecurity. Our goal is to predict and use data to
 median house values in selected California counties.
 
   This system will take into account the average median income, house ages, number of
-rooms/ bedrooms, occupancy, populaDon, locaDon, and the longitude/ laDtude. The chosen
+rooms/ bedrooms, occupancy, population, location, and the longitude/ latitude. The chosen
 dataset is suitable for the project as it has 20640 entries and it measures and includes the
 necessary data about the houses in the area. The main impact that this project should have is to
 increase awareness and discover soluDons using data.
@@ -37,4 +37,4 @@ Abdullah Alkhatlan
 - Writing documention and project report.
 
 Niyonkuru Beliutra
-- ~ Not yet assigned ~ (recentely joined group)
+- Dataset research and justification.
