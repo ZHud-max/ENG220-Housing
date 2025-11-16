@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("California Housing")
+st.title("California Housing Prices")
 
 # Load datasets
 data_updated = pd.read_csv('california_housing_updated.csv')
