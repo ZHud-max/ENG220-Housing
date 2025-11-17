@@ -43,7 +43,7 @@ st.pyplot(fig)
 st.subheader("Median House Value by Housing Age Range")
 
 # Same age bin edges and labels as MATLAB
-edges = [0, 10, 20, 30, 40, 50, 60]
+edges = [0, 10, 20, 30, 40, 50, 70]
 xlabels = ['0-9', '10-19', '20-29', '30-39', '40-49',
            '50+']
 
