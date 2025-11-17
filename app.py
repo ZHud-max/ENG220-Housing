@@ -45,7 +45,7 @@ st.subheader("Median House Value by Housing Age Range")
 # Same age bin edges and labels as MATLAB
 edges = [0, 10, 20, 30, 40, 50, 60, 70, 80, 100]
 xlabels = ['0-9', '10-19', '20-29', '30-39', '40-49',
-           '50-59', '60-69', '70-79', '80+']
+           '50+']
 
 # Bin ages
 age_bins_1990 = pd.cut(
