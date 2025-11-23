@@ -92,3 +92,45 @@ boxplot([cl_data_1990.median_house_value; cl_data_updated.median_house_value], .
          repmat({'Updated'}, height(cl_data_updated), 1)]);
 title('Comparison of Median House Value Distributions');
 ylabel('Median House Value ($)');
+
+% Print the max and min "median_house_value" value in each dataset
+max_value_1990 = max(cl_data_1990.median_house_value, [], 'omitnan');
+min_value_1990 = min(cl_data_1990.median_house_value, [], 'omitnan');
+max_value_updated = max(cl_data_updated.median_house_value, [], 'omitnan');
+min_value_updated = min(cl_data_updated.median_house_value, [], 'omitnan');
+
+fprintf('1990 Data: Max = $%.2f, Min = $%.2f\n', max_value_1990, min_value_1990);
+fprintf('Updated Data: Max = $%.2f, Min = $%.2f\n', max_value_updated, min_value_updated);
+
+% Double bar graph displaying the number of blocks that number of houses
+% that fall into a certain price range
+% Extract the median house values
+vals_1990 = cl_data_1990.median_house_value;
+vals_updated = cl_data_updated.median_house_value;
+
+% Define the bin edges (last bin covers >500k)
+edges = [0 100000 200000 300000 400000 500000 Inf];
+
+% Compute counts for each dataset
+counts_1990 = histcounts(vals_1990, edges);
+counts_updated = histcounts(vals_updated, edges);
+
+% Create labels for each bin
+labels = { ...
+    '0–100k', ...
+    '100–200k', ...
+    '200–300k', ...
+    '300–400k', ...
+    '400–500k', ...
+    '>500k'};
+
+% Create a double bar graph
+figure;
+bar([counts_1990; counts_updated].')
+xlabel('Median House Value Range ($)');
+ylabel('Number of Blocks');
+title('Comparison of Median House Value Distribution (1990 vs Updated)');
+legend('1990 Data','Updated Data');
+set(gca, 'XTickLabel', labels, 'FontSize', 12);
+xtickangle(45);
+grid on;
